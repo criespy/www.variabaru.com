@@ -1,0 +1,839 @@
+html
+{
+	100.01%;
+}
+/* some common things */
+ul
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+h1#sitelogo
+{
+	font-size: 1.8em;
+}
+/********************************************************************/
+/* where we at? the section header*/
+
+h2.where
+{
+	color: #EB9112;
+	padding: 0 1em 0.5em 1em;
+	margin: 0;
+	font-size: 2em;
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	border-bottom: solid 1px #D9D9D9;
+}
+
+/********************************************************************/
+/* the sidemenu */
+
+#sidemenu
+{
+	/*width: 17em;
+	margin-right: 2em;*/
+	float: left;	
+	padding-right: 1px;
+	border-right: solid 1px #C0C0C0;
+	border-bottom: solid 1px #C0C0C0;
+}
+#sidemenu h3, #sidemenu li a
+{
+	border-top: solid 1px white;
+}
+#sidemenu h3
+{
+	padding: 0.5em 1em 0.5em 1em;
+	background: #FFE3C1;
+}
+ul#submenu li
+{
+	display: inline; /* this gets rid of the gaps */
+}
+ul#submenu li a
+{
+	padding: 0.5em 1em 0.5em 3em;
+	font-size: 0.9em;
+	vertical-align: bottom;
+	display: block;
+	background: url(chosen2.gif) 7px 5px no-repeat #EBF2F8;
+}
+
+ul#submenu li a:hover
+{
+	display: block;
+	background: no-repeat #55728D;
+	text-decoration: none;
+	color: white;
+}
+ul#submenu li.active a
+{
+	color: black;
+	background: url(chosen.gif) 7px 5px no-repeat #C9D6E2;
+}
+ul#submenu li.active a:hover
+{
+	color: white;
+	background: url(chosen.gif) 7px 5px no-repeat #55728D;
+}
+.leftbox
+{
+	background: #EBF2F8;
+	padding: 1.5em;
+	font-size: 0.9em;
+}
+.leftbox label
+{
+	display: block;
+	font-size: 0.9em;
+	color: #707070;
+	padding: 0.4em 0 0.4em 0;
+}
+#quickmenu
+{
+	text-align: right;
+}
+#upshrink
+{
+	display: none;
+}
+#sidemenu form
+{
+	padding: 0.5em 1em 1em 3em;
+	font-size: 0.9em;
+	vertical-align: bottom;
+	background: #EBF2F8;
+}
+/* subsections */
+div.snav
+{
+	margin-top: 1.5em;
+	overflow: hidden;
+	padding: 0 0 1em 0;
+}
+div.snav h6
+{
+	display: none;
+}
+#secondarybody ul.snav
+{
+	list-style: none;
+}
+#secondarybody ul.snav li
+{
+	float: left;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0;
+}
+#secondarybody ul.snav li a
+{
+	color: black;
+	background: #EBF2F8;
+	padding: 0.7em;
+	display: block;
+	border-left: solid 2px white;
+}
+#secondarybody ul.snav li#active a
+{
+	font-weight: bold;
+	background: url(bubble2.gif) 4px 6px no-repeat #FFE3C1;
+	padding-left: 20px;
+}
+#secondarybody ul.snav li a:hover,#secondarybody ul.snav li#active a:hover
+{
+	background: #C9D6E2;
+	text-decoration: none;
+}
+
+/********************************************************************/
+/* the main content */
+
+#secondarybody
+{
+	border-top: solid 1px #FFFFFF;
+	padding: 1em 3em;
+	margin-left: 10em;
+}
+#secondarybody p
+{
+	font-size: 1em;
+	line-height: 1.3em;
+}
+#secondarybody h3
+{
+	color: #597D9D;
+	font-size: 1.5em;
+	margin: 1em 0 0 0;
+	font-family: arial, helvetica, sans-serif;
+	font-weight: bold;
+	background: url(bubbles.gif) 0 4px no-repeat;
+	padding-left: 23px;
+}
+#secondarybody h4
+{
+	color: #404040;
+	font-size: 1.1em;
+	margin: 2em 0 0.7em 0;
+}
+
+/********************************************************************/
+/* Illustrative images needs floating classes */
+
+.img-floatleft
+{
+	float: left;
+	margin: 0.4em;
+}
+.img-floatright
+{
+	float: right;
+	margin: 0.4em;
+}
+
+/********************************************************************/
+/* the team page */
+
+#secondarybody dl.team
+{
+	padding: 1em 0 1em 0;
+	margin-top: 1em;
+}
+#secondarybody dl.team dt
+{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-bottom: 0.4em;
+	padding: 0 0 0.4em 0;
+	border-bottom: dotted 1px #aaa;
+}
+#secondarybody dl.team img.avatar
+{
+	float: right;
+}
+#secondarybody dl.team dd
+{
+	overflow: hidden;
+	border: solid 1px #e0e0e0;
+	background: #f0f4f8;
+	padding: 1em;
+	margin: 1em 0 0.4em 0;
+}
+* html #secondarybody dl.team dd
+{
+	height: 1%;
+}
+#secondarybody dl.team ul
+{
+	margin-top: 0.3em;
+}
+#secondarybody dl.team li
+{
+	font-size: 0.9em;
+}
+#pro
+{
+	color: #DD0000;
+	background: url(badge_manager.gif) no-repeat 98% 15%;
+}
+#dev
+{
+	color: #FF6600;
+	background: url(badge_dev.gif) no-repeat 98% 15%;
+}
+#sup
+{
+	color: #6CB276;
+	background: url(badge_support.gif) no-repeat 98% 15%;
+}
+#cus
+{
+	color: #8991FF;
+	background: url(badge_customize.gif) no-repeat 98% 15%;
+}
+#mar
+{
+	color: #ABA000;
+	background: url(badge_marketing.gif) no-repeat 98% 15%;
+}
+#doc
+{
+	color: #FFBF00;
+	background: url(badge_doc.gif) no-repeat 98% 15%;
+}
+ul#smfriends, .teamlist
+{
+	margin: 1em;
+}
+ul#smfriends li, .teamlist li
+{
+	float: left;
+	width: 12em;
+}
+
+/********************************************************************/
+/* frontpage */
+
+#rightpanel
+{
+	width: 40%;
+	float: right;
+}
+#mainpanel
+{
+	float: left;
+	width: 56%;
+	font-family: arial, sans-serif;
+	min-height: 300px;
+}
+#secondarybody blockquote#fulcrum
+{
+	margin: 0 0 2em 0;
+	padding: 0 2em 0 2em;
+	background: white;
+}
+blockquote#fulcrum
+{
+}
+blockquote#fulcrum p
+{
+	margin: 0;
+	padding: 0 1em 0 0;
+	background: url(quotebackground.jpg) 50% 0 white no-repeat;
+	padding-top: 80px;
+	text-align: center;
+	font-size: 12px;
+	color: #8B3802;
+}
+blockquote#fulcrum p cite
+{
+	display: block;
+	text-align: center;
+	padding: 0 1em 1em 0;
+	background: none;
+}
+/* the navigation buttons */
+#secondarybody ul#sectionbuttons
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	height: 200px;
+}
+#secondarybody ul#sectionbuttons li
+{
+	background: url(navbg.jpg) repeat-x;
+	width: 25%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+* html #secondarybody ul#sectionbuttons li
+{
+	width: 24.9%;
+}
+#secondarybody ul#sectionbuttons li a
+{
+	width: 100%;
+	font-size: 6px;
+	color: #ECF4F7;
+	display: block;
+	height: 200px;
+}
+#secondarybody ul#sectionbuttons li#dl
+{
+	background: url(dlbutton.jpg) no-repeat;
+}
+#secondarybody ul#sectionbuttons li#dl a
+{
+}
+
+#secondarybody ul#sectionbuttons li#dl a:hover
+{
+	background: url(dlbutton_active.jpg) no-repeat;
+}
+
+#secondarybody ul#sectionbuttons li#cus
+{
+	background: url(cusbutton.jpg) 100% 0 no-repeat;
+}
+#secondarybody ul#sectionbuttons li#cus a
+{
+}
+#secondarybody ul#sectionbuttons li#cus a:hover
+{
+	background: url(cusbutton_active.jpg) 100% 0 no-repeat;
+}
+
+#secondarybody ul#sectionbuttons li#doc
+{
+	background: url(docbutton.jpg) 50% 0 no-repeat;
+}
+#secondarybody ul#sectionbuttons li#doc a
+{
+}
+#secondarybody ul#sectionbuttons li#doc a:hover
+{
+	background: url(docbutton_active.jpg) 50% 0 no-repeat;
+}
+
+#secondarybody ul#sectionbuttons li#sup
+{
+	background: url(supbutton.jpg) 50% 0 no-repeat;
+}
+#secondarybody ul#sectionbuttons li#sup a
+{
+}
+#secondarybody ul#sectionbuttons li#sup a:hover
+{
+	background: url(supbutton_active.jpg) 50% 0 no-repeat;
+}
+#where_dl, #where_doc,#where_cus,#where_sup, #where_start
+{
+	padding: 0 0 0 2em;
+	font-size: 0.85em;
+	position: absolute;
+	margin-top: -80px;
+	width: 26%;
+}
+* html #where_dl, * html #where_doc, * html #where_cus, * html #where_sup, * html #where_start
+{
+	width: 90%;
+}
+#where_dl em, #where_doc em,#where_cus em,#where_sup em, #where_start em, #mainpanel em
+{
+	font-size: 110%;
+	font-style: normal;
+	color: #600;
+}
+#mainpanel em
+{
+	font-size: 125%;
+}
+#secondarybody div.bluebox h3
+{
+	padding-left: 0;
+	margin: 1em 0 0 0;
+	background: url(bluebg_left.gif) top left no-repeat;
+
+}
+#secondarybody div.bluebox h3 span.upper
+{
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 100;
+	padding: 8px 0 0 0;
+	display: block;
+	background: url(bluebg_right_top.gif) top right no-repeat;
+	margin-left: 25px;
+	color: #EB6812;
+}
+div.bluebox
+{
+	background: url(bluebg_right.gif) right bottom  no-repeat;
+}
+div.bluebox span.lower
+{
+	display: block;
+	background: url(bluebg_left_bottom.gif) left bottom no-repeat;
+	padding: 0 1em 2em 2em;
+	margin-right: 1em;
+}
+#secondarybody div.orangebox h3
+{
+	padding-left: 0;
+	margin: 1em 0 0 0;
+	background: url(orangebg_left.gif) top left no-repeat;
+}
+#secondarybody div.orangebox h3 span.upper
+{
+	font-family: arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: 100;
+	padding: 8px 0 0 0;
+	display: block;
+	background: url(orangebg_right_top.gif) top right no-repeat;
+	margin-left: 25px;
+	color: #EB6812;
+}
+div.orangebox
+{
+	background: url(orangebg_right.gif) right bottom  no-repeat;
+}
+div.orangebox span.lower
+{
+	display: block;
+	background: url(orangebg_left_bottom.gif) left bottom no-repeat;
+	padding: 0 1em 2em 2em;
+	margin-right: 1em;
+}
+span.lower input#sidesearch
+{
+	padding: 0.5em;
+	background: white;
+	border: solid 2px #bbb;
+	width: 75%;
+}
+
+
+#news dl
+{
+	margin-top: 0.5em;
+}
+#news dt
+{
+	font-weight: bold;
+	background: url(readmore.gif) 0 50% no-repeat;
+	padding-left: 12px;
+	font-size: 120%;
+	margin-top: 0.7em;
+}
+#news dd
+{
+	padding-left: 22px;
+	font-size: 0.9em;
+}
+#smfpics
+{
+	margin: 0.5em 0 1em 1em;
+	float: right;
+}
+#secondaryBody #forumPosts
+{
+	font-size: 0.8em;
+}
+/********************************************************************/
+/* "about" section pages */
+
+#secondarybody ul
+{
+	list-style: disc;
+}
+#secondarybody ul ul
+{
+	list-style: circle;
+}
+#secondarybody li
+{
+	margin: 0.4em 0 0 3em;
+}
+#secondarybody ol
+{
+	font-size: 0.9em;
+	margin-bottom: 1em;
+}
+#secondarybody strong.very
+{
+	color: #800000;
+}
+#secondarybody p.notice, #secondarybody div.notice
+{
+	border: solid 1px #bbb;
+	background: #fff0e0;
+	padding: 1em;
+	margin-top: 0.5em;
+	font-style: normal;
+}
+#secondarybody p.info, #secondarybody div.info, #secondarybody h3.info
+{
+	background: url(info_background.png) 4px 4px no-repeat #fbf8f4;
+	padding: 1em 1em 1em 4em;
+	margin: 0.5em auto 0 auto;
+	border: solid 1px #ddd;
+}
+#secondarybody p.conclude, #secondarybody div.conclude
+{
+	line-height: 1.4em;
+	background: #f0f8ff;
+	padding: 1.7em;
+	margin-top: 0.5em;
+}
+/********************************************************************/
+#secondarybody dl.conv
+{
+	padding: 1em;
+	font-size: 0.9em;
+}
+#secondarybody dl.conv dt
+{
+	display: block;
+	font-weight: bold;
+	margin: 0.5 0 1em 1em;
+}
+#secondarybody dl.conv dd
+{
+	padding: 0 0 2em 0;
+	line-height: 1.4em;
+
+}
+#secondarybody blockquote#unknown
+{
+	margin: 1em;
+	padding: 0.1em 2em 1em 3em;
+	font-family: arial, sans-serif;
+	font-size: 1.2em;
+	background: url(quote.png) no-repeat #F0F3FC;
+}
+#secondarybody blockquote#unknown p, #secondarybody p
+{
+	padding: 1em 0 0 0;
+	margin: 0;
+}
+#secondarybody blockquote#unknown cite
+{
+	display: block;
+	text-align: right;
+	font-size: 0.9em;
+	background: url(quote_end.png) no-repeat right top #F0F3FC;
+	padding: 30px 30px 0 0;
+}
+#secondarybody ol#principles
+{
+	list-style: circle;
+	padding: 0 1em 1em 1em;
+	font-size: 0.9em;
+}
+#secondarybody form#contactform fieldset
+{
+	margin-top: 2em;
+	border: solid 1px #e0e0f0;
+	font-size: 0.9em;
+	background: url(news_background.png) top right no-repeat #fff;
+}
+#secondarybody form#contactform fieldset label
+{
+	float: left;
+	display: block;
+	width: 8em;
+	margin: 0.3em;
+}
+#secondarybody form#contactform fieldset input
+{
+	background: #f0f0f0;
+	margin: 0.3em;
+}
+#bodyarea
+{
+	overflow: auto;
+}
+* html #bodyarea
+{
+	height: 1%;
+}
+#secondarybody table.site
+{
+	border: 1px solid #999;
+	background: white;
+}
+#secondarybody table.site caption
+{
+	font-weight: bold;
+	padding: 1em 0 0.5em 0;
+	text-align: left;
+}
+#secondarybody table.site th, #secondarybody table.site tr.head td
+{
+	background: #88A6C0;
+	color: white;
+	font-size: 0.9em;
+}
+#secondarybody table.site tr.even td
+{
+	background: #F0F4F6;
+}
+#secondarybody table.site tr.odd td
+{
+	background: #E8EAEE;
+}
+/* ############################## */
+/* customize main page */
+ul#customize
+{
+	list-style: none;
+	margin: 0;
+}
+ul#customize li
+{
+	margin: 0;
+	padding: 0;
+}
+ul#customize li p
+{
+	padding: 0 1em 1em 85px;
+	font-size: 1em;
+}
+ul#customize li h3
+{
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+/* ############################# */
+/* download page */
+dl.filelist
+{
+	background: url(dlheader_corner.jpg) no-repeat;
+}
+dl.filelist dt
+{
+	font-size: 1.1em;
+	color: #FB8115;
+	font-weight: bold;
+	border-bottom: solid 1px #C3C3C3;
+	background: url(dlheader_bg.jpg) repeat-x;
+	padding: 15px 0 5px 5px;
+	margin: 0 0 5px 20px;
+}
+dl.filelist dd.file_downloads
+{
+	font-size: 1.6em;
+	color: #999;
+	float: right;
+	margin: 0 2em 0 2em;
+}
+dl.filelist dd.file_description
+{
+	font-size: 0.9em;
+	color: #777;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+#secondarybody dl.filelist dd.file_types
+{
+	overflow: hidden;
+	height: 100%;
+}
+#secondarybody dl.filelist dd.file_types ul.filetype
+{
+	margin: 0 0 1em 0;
+	padding: 0;
+	list-style: none;
+}
+#secondarybody dl.filelist dd.file_types ul.filetype li
+{
+	float: left;
+}
+#secondarybody dl.filelist dd.file_types ul.filetype li a
+{
+	display: block;
+	padding: 45px 10px 0 10px;
+	background: url(package.jpg) 50% 0 no-repeat;
+	font-size: 0.8em;
+}
+#secondarybody p.info2 , #secondarybody dd.info2
+{
+	font-size: 0.9em;
+	padding: 0.4em;
+	margin: 0.1em 1em 0.5em 2em;
+	display: block;
+}
+#secondarybody ul.langlist
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#secondarybody ul.langlist li
+{
+	float: left;
+	margin: 0.2em;
+	padding: 0;
+}
+#secondarybody ul.langlist li a
+{
+	width: 19em;
+	height: 2.5em;
+	border: solid 1px #ccc;
+	font-size: 0.9em;
+	display: block;
+	text-align: center;
+	line-height: 2.5em;
+}
+#secondarybody ul.langlist li a:hover
+{
+	border: solid 1px blue;
+	text-decoration: none;
+	color: blue;
+}
+#secondarybody dl#showtypes
+{
+	margin: 2em 0 2em 0;
+}
+#secondarybody dl#showtypes dt
+{
+	padding: 10px 5px 10px 35px;
+	background: url(package.jpg) no-repeat;
+	margin-left: 1em;
+	font-size: 0.9em;
+	float: left;
+	font-weight: bold;
+}
+#secondarybody dl#showtypes dd
+{
+	margin-left: 10em;
+}
+ #secondarybody p.divider_bottom
+ {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
+	border-bottom: solid 2px #ddd;
+ }
+ #secondarybody div#webinstall h4 a
+{
+	display: block;
+	padding: 45px 10px 2em 10px;
+	background: url(package.jpg) 5em 0 no-repeat;
+	font-size: 0.8em;
+}
+/* values page */
+ol#values
+{
+	margin: 0 0 0 10px;
+	list-style: none;
+	padding: 0;
+}
+ol#values li
+{
+	background: url(dlheader_bg.jpg) repeat-x;
+	padding: 0;
+	margin: 0;
+}
+ol#values li h4
+{
+	background: url(dlheader_corner.jpg) no-repeat;
+	padding: 15px 0 0 20px;
+	margin: 1em 0 0 0;
+	color: #500000;
+	letter-spacing: 1px;
+}
+ol#values li p
+{
+	margin: 0.5em 20px 2em 25px;
+
+}
+/* features page */
+#secondarybody ul.features, #secondarybody ul.features ul
+{
+	list-style: none;
+}
+ul.features li
+{
+	padding: 4px 0 4px 30px;
+	background: url(bubble2.gif) 0 5px no-repeat;
+}
+ul.features li.more
+{
+	background: url(doc_menu.png) 0 50% no-repeat;
+}
+ul.features li ul li
+{
+	padding: 4px 0 4px 30px;
+	background: url(chosen.gif) 0 5px no-repeat;
+}
+/* supporttopics.php */
+table.site td
+{
+	padding: 4px;
+}

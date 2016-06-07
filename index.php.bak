@@ -1,0 +1,27 @@
+<html>
+<head><title>Under Construction</title></head>
+<body bgcolor="#000000">
+<table width="100%" height="100%"><tr>
+<td align=middle valign=middle width="20%"></td>
+<td align=middle valign=middle width="60%">
+<font color=white size=7><b><!--#echo var="SERVER_NAME" --></script></b></font>
+<br>
+<img src=uc19.gif>
+<br>
+<font color=white size=7>Sorry, this website is still under construction.</font>
+<br>
+<br>
+<br>
+<br>
+
+<font color="#dddddd" size=3>If you are the owner of this website, you can start
+managing your website by logging in to <a href=/spanel/><font color="#aaaaaa">Spanel</a></a> control
+panel to upload files, etc. Or, please consult the getting started guide
+which comes with your welcome email.</font>
+
+</td>
+<td align=middle valign=middle width="20%"></td>
+</tr></table>
+</body>
+</html>
+
